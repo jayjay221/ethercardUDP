@@ -12,7 +12,7 @@
 
 #define DEBUG 0 // 1 for serial messages at 9600 baud, 0 for none
 
-#define BUFFERSIZE 700 // size of buffer in bytes
+#define BUFFERSIZE 700 // size of buffer in octets
 #define MACADDR { 0x74,0x69,0x69,0x2D,0x30,0x31 } // has to be unique within network
 #define DESTINATIONADRESS "255.255.255.255" // ip adress of UDP server
 #define SOURCEPORT 55056
